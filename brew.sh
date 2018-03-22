@@ -121,8 +121,6 @@ brew cask install --appdir="/Applications" google-chrome
 brew cask install --appdir="/Applications" enpass
 # brew cask install --appdir="/Applications" moom
 brew cask install --appdir="/Applications" visual-studio-code
-export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-code --install-extension Shan.code-settings-sync
 # brew cask install --appdir="/Applications" firefox
 # brew cask install --appdir="/Applications" skype
 # brew cask install --appdir="/Applications" slack
