@@ -84,7 +84,7 @@ brew install hub
 # brew install p7zip
 # brew install pigz
 # brew install pv
-brew install rename
+# brew install rename
 # brew install rhino
 # brew install speedtest_cli
 brew install ssh-copy-id
@@ -101,8 +101,8 @@ brew install pandoc
 # brew link libxslt --force
 
 # Install Heroku
-brew install heroku-toolbelt
-heroku update
+# brew install heroku-toolbelt
+# heroku update
 
 # Core casks
 brew cask install --appdir="/Applications" alfred
@@ -112,7 +112,7 @@ brew cask install --appdir="~/Applications" java
 
 # Development tool casks
 brew cask install --appdir="/Applications" macdown
-brew cask install --appdir="/Applications" virtualbox
+# brew cask install --appdir="/Applications" virtualbox
 # brew cask install --appdir="/Applications" vagrant
 
 # Misc casks
@@ -134,7 +134,7 @@ code --install-extension Shan.code-settings-sync
 #brew cask install --appdir="/Applications" mactex
 
 # Install Docker, which requires virtualbox
-brew install docker
+# brew install docker
 # brew install boot2docker
 
 # Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins
