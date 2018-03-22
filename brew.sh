@@ -141,5 +141,21 @@ code --install-extension Shan.code-settings-sync
 # Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
 
+
+### Xi's extra tools ###
+brew install fzf
+
+# fish
+brew install fish --HEAD
+echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
+chsh -s `which fish`
+
+# fisher
+brew tap fisherman/tap
+brew install --HEAD fisherman
+echo "updating Fisher ...."
+fisher up
+
+fisher fnm fzf
 # Remove outdated versions from the cellar.
 brew cleanup
