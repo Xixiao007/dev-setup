@@ -151,9 +151,9 @@ chsh -s `which fish`
 # fisher
 brew tap fisherman/tap
 brew install --HEAD fisherman
-echo "updating Fisher ...."
-fisher up
+# echo "updating Fisher ...."
+# fisher up
 
-fisher fnm fzf
+# fisher fnm fzf
 # Remove outdated versions from the cellar.
 brew cleanup
