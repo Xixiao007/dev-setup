@@ -40,8 +40,6 @@ set -x PATH "/usr/local/sbin" $PATH
 # set -x PATH "$HOME/.npm/bin" $PATH
 # set -x PATH "./node_modules/.bin" $PATH
 
-# vscode
-set -X PATH "/Applications/Visual Studio Code.app/Contents/Resources/app/bin" $PATH
 
 # python
 # Config `pip' to bail outside a virtualenv by default, see function gpip
