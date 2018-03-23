@@ -108,7 +108,6 @@ brew install pandoc
 # Core casks
 brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="~/Applications" iterm2
-brew cask install --appdir="~/Applications" java
 # brew cask install --appdir="~/Applications" xquartz
 
 # Development tool casks
@@ -141,7 +140,13 @@ brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch 
 
 
 ### Xi's extra tools ###
-brew install fzf
+# java
+brew tap caskroom/versions
+brew cask install java8
+# install path /Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home
+
+# console tools
+brew install fzf fd ranger
 
 # fish
 brew install fish --HEAD
