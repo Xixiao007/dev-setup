@@ -1,9 +1,9 @@
 #start x at login.
-if status --is-login
-  if test -z "$DISPLAY" -a "$XDG_VTNR" -eq "1"
-    exec startx -- -keeptty
-  end
-end
+# if status --is-login
+#   if test -z "$DISPLAY" -a "$XDG_VTNR" -eq "1"
+#     exec startx -- -keeptty
+#   end
+# end
 
 #nvm use 6
 #start tmux at boot of fish shell
@@ -170,7 +170,7 @@ set fish_color_search_match c397d8
 set fish_color_operator 70c0b1
 set fish_color_escape 70c0b1
 set fish_color_cwd b9ca4a
-set fish_greeting "Found me here => http://xixiao.info"
+set fish_greeting "I'm here => http://xixiao.info"
 
 # set PATH $HOME/.rbenv/bin $PATH
 # set PATH $HOME/.rbenv/shims $PATH
