@@ -124,6 +124,7 @@ alias l='ls -CF'
 alias D="cd ~/Downloads"
 alias d="cd ~/Dropbox"
 alias p="cd ~/projects"
+alias git="hub"
 alias g="git"
 alias gp="git push origin master"
 alias gs="git status"
