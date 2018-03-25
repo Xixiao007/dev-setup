@@ -157,19 +157,19 @@ set FZF_FIND_FILE_COMMAND "fd . $HOME"
 set FZF_CTRL_T_COMMAND "$FZF_FIND_FILE_COMMAND"
 set FZF_ALT_C_COMMAND "fd -t d . $HOME"
 
-set fish_color_normal ffff00 #dedede
-set fish_color_command yellow #7aa6da
-set fish_color_quote blue
-set fish_color_redirection c397d8
-set fish_color_end c397d8
-set fish_color_error red
-set fish_color_param 7CFC00 
-set fish_color_comment ffff00
-set fish_color_match 70c0b1
-set fish_color_search_match c397d8
-set fish_color_operator 70c0b1
-set fish_color_escape 70c0b1
-set fish_color_cwd b9ca4a
+# set fish_color_normal ffff00 #dedede
+# set fish_color_command yellow #7aa6da
+# set fish_color_quote blue
+# set fish_color_redirection c397d8
+# set fish_color_end c397d8
+# set fish_color_error red
+# set fish_color_param 7CFC00 
+# set fish_color_comment ffff00
+# set fish_color_match 70c0b1
+# set fish_color_search_match c397d8
+# set fish_color_operator 70c0b1
+# set fish_color_escape 70c0b1
+# set fish_color_cwd b9ca4a
 set fish_greeting "I'm here => http://xixiao.info"
 
 # set PATH $HOME/.rbenv/bin $PATH
