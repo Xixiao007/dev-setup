@@ -148,6 +148,9 @@ brew cask install java8
 # console tools
 brew install fzf fd ranger gist tig z
 
+# mackup
+brew install mackup
+
 # fish
 brew install fish --HEAD
 # fisher
