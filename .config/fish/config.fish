@@ -153,11 +153,9 @@ alias vm="cd ~/VMs"
 alias c="clear"
 alias v="vagrant"
 
-set FZF_DEFAULT_COMMAND "fd . $HOME"
-set FZF_CTRL_T_COMMAND "$FZF_DEFAULT_COMMAND"
+set FZF_FIND_FILE_COMMAND "fd . $HOME"
+set FZF_CTRL_T_COMMAND "$FZF_FIND_FILE_COMMAND"
 set FZF_ALT_C_COMMAND "fd -t d . $HOME"
-set -U FZF_TMUX 0
-set -U FZF_COMPLETE 0
 
 set fish_color_normal ffff00 #dedede
 set fish_color_command yellow #7aa6da

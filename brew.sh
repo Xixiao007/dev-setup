@@ -146,7 +146,7 @@ brew cask install java8
 # install path /Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home
 
 # console tools
-brew install fzf fd ranger
+brew install fzf fd ranger gist tig
 
 # fish
 brew install fish --HEAD
