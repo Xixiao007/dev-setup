@@ -156,6 +156,7 @@ alias v="vagrant"
 set FZF_FIND_FILE_COMMAND "fd . $HOME"
 set FZF_CTRL_T_COMMAND "$FZF_FIND_FILE_COMMAND"
 set FZF_ALT_C_COMMAND "fd -t d . $HOME"
+set -U FZF_LEGACY_KEYBINDINGS 0
 
 # set fish_color_normal ffff00 #dedede
 # set fish_color_command yellow #7aa6da
