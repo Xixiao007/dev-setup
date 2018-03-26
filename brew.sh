@@ -151,6 +151,12 @@ brew install fzf fd ranger gist tig z
 # mackup
 brew install mackup
 
+# mas
+brew install mas
+
+# trash
+brew install trash
+
 # fish
 brew install fish --HEAD
 # fisher
