@@ -152,6 +152,7 @@ alias dub="cd ~/project/dublearn"
 alias vm="cd ~/VMs"
 alias c="clear"
 alias v="vagrant"
+alias rm="trash"
 
 set FZF_FIND_FILE_COMMAND "fd . $HOME"
 set FZF_CTRL_T_COMMAND "$FZF_FIND_FILE_COMMAND"

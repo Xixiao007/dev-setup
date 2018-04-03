@@ -17,9 +17,10 @@ code --install-extension Shan.code-settings-sync
 rbenv install `rbenv install -l | grep -v - | tail -1`
 rbenv global `rbenv install -l | grep -v - | tail -1`
 
-# jekyll salesforce blog
+# my projects folder
 mkdir -p $HOME/projects
-hub clone xixiao007.github.io $HOME/projects/
+
+# jekyll
 gem install jekyll bundler
 
 ./fish_action.sh
